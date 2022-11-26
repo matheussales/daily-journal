@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import HomeTemplate from '../components/template/home';
 
-export default function Home() {
+const Home: React.FC = () => {
     return (
         <div>
             <Head>
@@ -11,4 +11,6 @@ export default function Home() {
             <HomeTemplate />
         </div>
     );
-}
+};
+
+export default Home;

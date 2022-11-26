@@ -7,8 +7,9 @@
 -   [ ] Add configuration
     -   [x] Eslint + Prettier
     -   [x] Typescript
-    -   [ ] Husky and Lint Stage
-    -   [ ] Jest with React Testing Library
+    -   [x] Husky and Lint Stage
+    -   [ ] Stylelint
+    -   [x] Jest with React Testing Library
 -   [ ] Daily Journal List
 -   [ ] Create Daily Journal (Form)
 

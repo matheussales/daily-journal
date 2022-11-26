@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Row, Typography, Col } from 'antd';
 import { DAYS, MONTHS } from '../../../lib/constants';
 
@@ -10,7 +10,7 @@ interface CurrentDateProps {
     date?: Date;
 }
 
-export const CurrentDate: React.FC<CurrentDateProps> = ({
+const CurrentDate: React.FC<CurrentDateProps> = ({
     date = new Date(),
 }: CurrentDateProps) => {
     const [currentDate] = useState(date);
