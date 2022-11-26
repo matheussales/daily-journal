@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import HomeTemplate from '../components/template/home';
 
 const Home: React.FC = () => {
     return (
@@ -7,7 +8,7 @@ const Home: React.FC = () => {
                 <title>Daily Journal</title>
             </Head>
 
-            <h1>Daily Journal</h1>
+            <HomeTemplate />
         </div>
     );
 };
