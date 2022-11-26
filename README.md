@@ -8,7 +8,9 @@
     -   [x] Eslint + Prettier
     -   [x] Typescript
     -   [ ] Husky and Lint Stage
-    -   [ ] Jest with React Testing Library
+        -   npm install lint-staged husky --save-dev
+    -   [ ] Stylelint
+    -   [x] Jest with React Testing Library
 -   [ ] Daily Journal List
 -   [ ] Create Daily Journal (Form)
 
