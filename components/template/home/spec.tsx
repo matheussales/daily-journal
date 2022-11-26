@@ -1,13 +1,10 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import HomeTemplate from '.';
 
 describe('<HomeTemplate />', () => {
-    describe('should render the component', () => {
-        it('with default date', () => {
-            render(<HomeTemplate />);
+    it('should render the component', () => {
+        render(<HomeTemplate />);
 
-            expect(screen.getByText(/daily journal/i)).toBeDefined();
-        });
+        expect(screen.getByText(/daily journal/i)).toBeDefined();
     });
 });

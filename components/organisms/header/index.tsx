@@ -1,4 +1,3 @@
-import React from 'react';
 import { Divider, PageHeader } from 'antd';
 import CurrentDate from '../../molecules/current-date';
 

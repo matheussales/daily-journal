@@ -1,6 +1,6 @@
 import DailyHeader from '../../components/organisms/header';
 
-const CreatePage = () => {
+const CreatePage: React.FC = () => {
     return <DailyHeader title="Create Daily Routine" />;
 };
 

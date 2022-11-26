@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Row, Typography, Col } from 'antd';
 import { DAYS, MONTHS } from '../../../lib/constants';
 
