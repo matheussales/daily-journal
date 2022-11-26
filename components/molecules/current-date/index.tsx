@@ -10,7 +10,7 @@ interface CurrentDateProps {
     date?: Date;
 }
 
-export const CurrentDate: React.FC<CurrentDateProps> = ({
+const CurrentDate: React.FC<CurrentDateProps> = ({
     date = new Date(),
 }: CurrentDateProps) => {
     const [currentDate] = useState(date);
