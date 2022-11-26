@@ -7,8 +7,7 @@
 -   [ ] Add configuration
     -   [x] Eslint + Prettier
     -   [x] Typescript
-    -   [ ] Husky and Lint Stage
-        -   npm install lint-staged husky --save-dev
+    -   [x] Husky and Lint Stage
     -   [ ] Stylelint
     -   [x] Jest with React Testing Library
 -   [ ] Daily Journal List

@@ -6,5 +6,5 @@ const buildEslintCommand = (filenames) =>
         .join(' --file ')}`;
 
 module.exports = {
-    '*.{ts,tsx}': [buildEslintCommand, 'npm run test', 'git adds'],
+    '*.{ts,tsx}': [buildEslintCommand, 'npm run test --findRelatedTests', 'git adds'],
 };
