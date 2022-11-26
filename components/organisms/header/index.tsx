@@ -2,12 +2,16 @@ import React from 'react';
 import { Divider, PageHeader } from 'antd';
 import CurrentDate from '../../molecules/current-date';
 
-const DailyFormHeader: React.FC = () => {
+interface Header {
+    title: string;
+}
+
+const Header: React.FC<Header> = ({ title }) => {
     return (
         <>
             <PageHeader
                 className="site-page-header"
-                title="Create daily activity"
+                title={title}
                 footer={<CurrentDate />}
             />
 
@@ -16,4 +20,4 @@ const DailyFormHeader: React.FC = () => {
     );
 };
 
-export default DailyFormHeader;
+export default Header;

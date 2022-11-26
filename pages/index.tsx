@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import HomeTemplate from '../components/template/home';
 
 export default function Home() {
     return (
@@ -7,7 +8,7 @@ export default function Home() {
                 <title>Daily Journal</title>
             </Head>
 
-            <h1>Daily Journal</h1>
+            <HomeTemplate />
         </div>
     );
 }

@@ -1,7 +1,7 @@
-import DailyFormHeader from '../../components/organisms/daily-form-header';
+import DailyHeader from '../../components/organisms/header';
 
 const CreatePage = () => {
-    return <DailyFormHeader />;
+    return <DailyHeader title="Create Daily Routine" />;
 };
 
 export default CreatePage;
